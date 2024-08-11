@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+}
+
+img{
+	vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+code {
+    font-family: "Roboto Mono" , monospace;
+    color: $success;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.fs-6 {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.fs-7 {
+    font-size: 12px;
+    line-height: 24px;
+    // color:#6C757D;
+}
+
+.text-secondary {
+    color: #F8F9FA;
+}
+
+.border-secondary {
+    border: 1px solid #CED4DA;
+}
+
+

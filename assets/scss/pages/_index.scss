@@ -1,0 +1,39 @@
+main {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.n-icon::after {
+  display: none;
+}
+
+.navbar {
+  padding-block: 32px;
+}
+.assign-list {
+  width: 22%;
+}
+
+.assign-card {
+  width: 77%;
+}
+
+.list-group {
+  width: 320px;
+}
+
+
+.list-active {
+  background-color: #F8F9FA;
+  color: black;
+}
+
+.replyCollapse {
+  width: 100%;
+  bottom: 0; right: 0;
+}
+
+textarea {
+  height: 140px;
+  width: 100%;
+}
